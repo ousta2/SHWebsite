@@ -1,7 +1,7 @@
 $( document ).ready(function() {
-    // $.get("https://tallassoft.com/my_dev/bonfire/tele.php", function(data, status){
+    $.get("https://tallassoft.com/my_dev/bonfire/tele.php", function(data, status){
        
-    //   });
+      });
 });
 
 (function ($) {
