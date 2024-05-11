@@ -73,8 +73,8 @@ $( document ).ready(function() {
         console.log($videoSrc);
 
         $('#videoModal').on('shown.bs.modal', function (e) {
-            // $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-            $("#video").attr('src', $videoSrc + "?autoplay=1&mute=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1");
+            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0;controls=0");
+        //     $("#video").attr('src', $videoSrc + "?autoplay=1&mute=0&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1");
         })
 
         $('#videoModal').on('hide.bs.modal', function (e) {
