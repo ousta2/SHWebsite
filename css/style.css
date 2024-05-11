@@ -1,6 +1,10 @@
 
 /*** Spinner Start ***/
 /*** Spinner ***/
+.cur_pointer{
+    cursor: pointer;
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;
