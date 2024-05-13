@@ -2,6 +2,10 @@
 /*** Spinner Start ***/
 /*** Spinner ***/
 
+body{
+     text-transform: capitalize; 
+}
+
 .img-recently{
     height: 11rem;
 }
